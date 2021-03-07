@@ -16,6 +16,7 @@
 
   <title>actingweb_firstapp</title>
   <link rel="manifest" href="manifest.json">
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD7fSvAPIz-31x_pMPJ3hR3xMcP8WjJxJ0"></script>
 </head>
 <body>
 <!-- The core Firebase JS SDK is always required and must be listed first -->
@@ -50,7 +51,7 @@
         // This script installs service_worker.js to provide PWA functionality to
         //     application. For more information, see:
         //     https://developers.google.com/web/fundamentals/primers/service-workers 
-        navigator.serviceWorker.register('flutter_service_worker.js');
+        navigator.serviceWorker.register('flutter_service_worker.js?v=2148212777');
         // Install service worker for notifications
         // We need to install our own instead of relying on the auto-initiated as 
         // default the firebase-messagaging-sw.js is expected on the root of the domain
